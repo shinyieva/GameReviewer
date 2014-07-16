@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A6649CCE1484A32A57B0D80 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16AB456CB6FD4A08A8184A9E /* libPods.a */; };
+		A311357A1976796300A2BCCC /* GRMenuItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A31135791976796300A2BCCC /* GRMenuItemCell.m */; };
+		A311357E197679F700A2BCCC /* GRTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A311357D197679F700A2BCCC /* GRTableViewCell.m */; };
 		A31FEED31975367E00519B58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A31FEED21975367E00519B58 /* Foundation.framework */; };
 		A31FEED51975367E00519B58 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A31FEED41975367E00519B58 /* CoreGraphics.framework */; };
 		A31FEED71975367E00519B58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A31FEED61975367E00519B58 /* UIKit.framework */; };
@@ -22,6 +25,12 @@
 		A31FEEF41975367F00519B58 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A31FEED81975367E00519B58 /* CoreData.framework */; };
 		A31FEEFC1975367F00519B58 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A31FEEFA1975367F00519B58 /* InfoPlist.strings */; };
 		A31FEEFE1975367F00519B58 /* GameReviewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A31FEEFD1975367F00519B58 /* GameReviewerTests.m */; };
+		A31FEF0B1975384600519B58 /* UIViewController+GRDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = A31FEF0A1975384600519B58 /* UIViewController+GRDrawerController.m */; };
+		A31FEF111975395900519B58 /* GRDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = A31FEF101975395900519B58 /* GRDrawerController.m */; };
+		A31FEF1619753AC700519B58 /* GRMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A31FEF1419753AC700519B58 /* GRMenuViewController.m */; };
+		A31FEF1719753AC700519B58 /* GRMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A31FEF1519753AC700519B58 /* GRMenuViewController.xib */; };
+		A31FEF1C19753C3500519B58 /* GRMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A31FEF1B19753C3500519B58 /* GRMenuItem.m */; };
+		A31FEF1F19753D0200519B58 /* GRNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A31FEF1E19753D0200519B58 /* GRNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16AB456CB6FD4A08A8184A9E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A19FA4F188C4C5388E19EEF /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		A31135781976796300A2BCCC /* GRMenuItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRMenuItemCell.h; sourceTree = "<group>"; };
+		A31135791976796300A2BCCC /* GRMenuItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRMenuItemCell.m; sourceTree = "<group>"; };
+		A311357C197679F700A2BCCC /* GRTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRTableViewCell.h; sourceTree = "<group>"; };
+		A311357D197679F700A2BCCC /* GRTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRTableViewCell.m; sourceTree = "<group>"; };
 		A31FEECF1975367E00519B58 /* GameReviewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameReviewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A31FEED21975367E00519B58 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A31FEED41975367E00519B58 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +68,17 @@
 		A31FEEF91975367F00519B58 /* GameReviewerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GameReviewerTests-Info.plist"; sourceTree = "<group>"; };
 		A31FEEFB1975367F00519B58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A31FEEFD1975367F00519B58 /* GameReviewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameReviewerTests.m; sourceTree = "<group>"; };
+		A31FEF091975384600519B58 /* UIViewController+GRDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GRDrawerController.h"; sourceTree = "<group>"; };
+		A31FEF0A1975384600519B58 /* UIViewController+GRDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GRDrawerController.m"; sourceTree = "<group>"; };
+		A31FEF0F1975395900519B58 /* GRDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRDrawerController.h; sourceTree = "<group>"; };
+		A31FEF101975395900519B58 /* GRDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRDrawerController.m; sourceTree = "<group>"; };
+		A31FEF1319753AC700519B58 /* GRMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRMenuViewController.h; sourceTree = "<group>"; };
+		A31FEF1419753AC700519B58 /* GRMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRMenuViewController.m; sourceTree = "<group>"; };
+		A31FEF1519753AC700519B58 /* GRMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GRMenuViewController.xib; sourceTree = "<group>"; };
+		A31FEF1A19753C3500519B58 /* GRMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRMenuItem.h; sourceTree = "<group>"; };
+		A31FEF1B19753C3500519B58 /* GRMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRMenuItem.m; sourceTree = "<group>"; };
+		A31FEF1D19753D0200519B58 /* GRNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRNavigationController.h; sourceTree = "<group>"; };
+		A31FEF1E19753D0200519B58 /* GRNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +90,7 @@
 				A31FEED91975367E00519B58 /* CoreData.framework in Frameworks */,
 				A31FEED71975367E00519B58 /* UIKit.framework in Frameworks */,
 				A31FEED31975367E00519B58 /* Foundation.framework in Frameworks */,
+				0A6649CCE1484A32A57B0D80 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +108,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A31135761976793A00A2BCCC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A311357B197679E500A2BCCC /* Common */,
+				A31135771976794100A2BCCC /* Menu */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A31135771976794100A2BCCC /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				A31135781976796300A2BCCC /* GRMenuItemCell.h */,
+				A31135791976796300A2BCCC /* GRMenuItemCell.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		A311357B197679E500A2BCCC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A311357C197679F700A2BCCC /* GRTableViewCell.h */,
+				A311357D197679F700A2BCCC /* GRTableViewCell.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
 		A31FEEC61975367E00519B58 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +142,7 @@
 				A31FEEF71975367F00519B58 /* GameReviewerTests */,
 				A31FEED11975367E00519B58 /* Frameworks */,
 				A31FEED01975367E00519B58 /* Products */,
+				3A19FA4F188C4C5388E19EEF /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +163,7 @@
 				A31FEED61975367E00519B58 /* UIKit.framework */,
 				A31FEED81975367E00519B58 /* CoreData.framework */,
 				A31FEEF01975367F00519B58 /* XCTest.framework */,
+				16AB456CB6FD4A08A8184A9E /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,8 +171,10 @@
 		A31FEEDA1975367E00519B58 /* GameReviewer */ = {
 			isa = PBXGroup;
 			children = (
-				A31FEEE31975367E00519B58 /* GRAppDelegate.h */,
-				A31FEEE41975367E00519B58 /* GRAppDelegate.m */,
+				A31135761976793A00A2BCCC /* Views */,
+				A31FEF1819753C1100519B58 /* Models */,
+				A31FEF0D1975386E00519B58 /* Controllers */,
+				A31FEF0C1975384C00519B58 /* Helpers */,
 				A31FEEE91975367E00519B58 /* Images.xcassets */,
 				A31FEEE61975367E00519B58 /* GameReviewer.xcdatamodeld */,
 				A31FEEDB1975367E00519B58 /* Supporting Files */,
@@ -127,6 +185,8 @@
 		A31FEEDB1975367E00519B58 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A31FEEE31975367E00519B58 /* GRAppDelegate.h */,
+				A31FEEE41975367E00519B58 /* GRAppDelegate.m */,
 				A31FEEDC1975367E00519B58 /* GameReviewer-Info.plist */,
 				A31FEEDD1975367E00519B58 /* InfoPlist.strings */,
 				A31FEEE01975367E00519B58 /* main.m */,
@@ -153,6 +213,62 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A31FEF0C1975384C00519B58 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		A31FEF0D1975386E00519B58 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A31FEF1219753A9800519B58 /* Menu */,
+				A31FEF0E1975387400519B58 /* Common */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A31FEF0E1975387400519B58 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A31FEF091975384600519B58 /* UIViewController+GRDrawerController.h */,
+				A31FEF0A1975384600519B58 /* UIViewController+GRDrawerController.m */,
+				A31FEF0F1975395900519B58 /* GRDrawerController.h */,
+				A31FEF101975395900519B58 /* GRDrawerController.m */,
+				A31FEF1D19753D0200519B58 /* GRNavigationController.h */,
+				A31FEF1E19753D0200519B58 /* GRNavigationController.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		A31FEF1219753A9800519B58 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				A31FEF1319753AC700519B58 /* GRMenuViewController.h */,
+				A31FEF1419753AC700519B58 /* GRMenuViewController.m */,
+				A31FEF1519753AC700519B58 /* GRMenuViewController.xib */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		A31FEF1819753C1100519B58 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A31FEF1919753C1800519B58 /* Menu */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A31FEF1919753C1800519B58 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				A31FEF1A19753C3500519B58 /* GRMenuItem.h */,
+				A31FEF1B19753C3500519B58 /* GRMenuItem.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -160,9 +276,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A31FEF011975367F00519B58 /* Build configuration list for PBXNativeTarget "GameReviewer" */;
 			buildPhases = (
+				CEC3AF4A03194A65A7878517 /* Check Pods Manifest.lock */,
 				A31FEECB1975367E00519B58 /* Sources */,
 				A31FEECC1975367E00519B58 /* Frameworks */,
 				A31FEECD1975367E00519B58 /* Resources */,
+				F2D00754032849DD80A10BC9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,6 +349,7 @@
 			files = (
 				A31FEEDF1975367E00519B58 /* InfoPlist.strings in Resources */,
 				A31FEEEA1975367E00519B58 /* Images.xcassets in Resources */,
+				A31FEF1719753AC700519B58 /* GRMenuViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,13 +363,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CEC3AF4A03194A65A7878517 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F2D00754032849DD80A10BC9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A31FEECB1975367E00519B58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A31FEF1F19753D0200519B58 /* GRNavigationController.m in Sources */,
 				A31FEEE11975367E00519B58 /* main.m in Sources */,
+				A311357A1976796300A2BCCC /* GRMenuItemCell.m in Sources */,
 				A31FEEE81975367E00519B58 /* GameReviewer.xcdatamodeld in Sources */,
+				A31FEF1619753AC700519B58 /* GRMenuViewController.m in Sources */,
+				A31FEF1C19753C3500519B58 /* GRMenuItem.m in Sources */,
+				A311357E197679F700A2BCCC /* GRTableViewCell.m in Sources */,
+				A31FEF0B1975384600519B58 /* UIViewController+GRDrawerController.m in Sources */,
+				A31FEF111975395900519B58 /* GRDrawerController.m in Sources */,
 				A31FEEE51975367E00519B58 /* GRAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,6 +526,7 @@
 		};
 		A31FEF021975367F00519B58 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A19FA4F188C4C5388E19EEF /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -380,6 +540,7 @@
 		};
 		A31FEF031975367F00519B58 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A19FA4F188C4C5388E19EEF /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -450,6 +611,7 @@
 				A31FEF031975367F00519B58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A31FEF041975367F00519B58 /* Build configuration list for PBXNativeTarget "GameReviewerTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +620,7 @@
 				A31FEF061975367F00519B58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

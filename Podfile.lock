@@ -1,0 +1,29 @@
+PODS:
+  - Mantle (1.5):
+    - Mantle/extobjc
+  - Mantle/extobjc (1.5)
+  - MMDrawerController (0.5.6):
+    - MMDrawerController/Core
+    - MMDrawerController/MMDrawerBarButtonItem
+    - MMDrawerController/MMDrawerVisualStates
+    - MMDrawerController/Subclass
+  - MMDrawerController/Core (0.5.6)
+  - MMDrawerController/MMDrawerBarButtonItem (0.5.6):
+    - MMDrawerController/Core
+  - MMDrawerController/MMDrawerVisualStates (0.5.6):
+    - MMDrawerController/Core
+  - MMDrawerController/Subclass (0.5.6):
+    - MMDrawerController/Core
+  - TGRDataSource (0.2)
+
+DEPENDENCIES:
+  - Mantle
+  - MMDrawerController
+  - TGRDataSource
+
+SPEC CHECKSUMS:
+  Mantle: c67a7e45e14196ed42b2a7cbb98ff6a9920e6b92
+  MMDrawerController: 4bae84535ca7a5f4cb55a66a001e6035c3571677
+  TGRDataSource: a38d9a72111d8dd9dc95ed08e5f3391c072f8f3d
+
+COCOAPODS: 0.33.1
